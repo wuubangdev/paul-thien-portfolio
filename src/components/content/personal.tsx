@@ -23,7 +23,7 @@ const Personal = () => {
                                 className='h-14 md:h-20'
                             />
                         </div>
-                        <h1 className='text-4xl md:text-6xl  hover:scale-110 duration-300 cursor-pointer'>I'm Paul</h1>
+                        <h1 className='text-4xl md:text-6xl  hover:scale-110 duration-300 cursor-pointer'>I am Paul</h1>
                         <h3 className='text-2xl md:text-4xl  decoration-solid decoration-orange-1 underline hover:scale-110 duration-300 cursor-pointer'>
                             <TypeAnimation
                                 sequence={[
