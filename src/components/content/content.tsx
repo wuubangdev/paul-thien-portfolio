@@ -11,7 +11,7 @@ const Content = () => {
     const [currentPage, setCurrentPage] = useState<number>(1);
     const sliderRef = useRef<Slider | null>(null);
 
-    var settings = {
+    const settings = {
         infinite: true,
         speed: 1500,
         slidesToShow: 1,

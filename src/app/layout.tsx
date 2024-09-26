@@ -5,18 +5,29 @@ import "slick-carousel/slick/slick-theme.css";
 import { Metadata } from "next";
 
 export async function generateMetadata(): Promise<Metadata> {
-
-
-
   return {
     title: "Paul",
     description: 'Paul Thien Portfolio',
     openGraph: {
-      images: ['https://github.com/wuubangdev/share-host-file/blob/main/avatar.png?raw=true'],
+      title: "Paul Thien Portfolio", // Thêm title cho OpenGraph
+      description: 'Portfolio showcasing the work of Paul Thien',
+      url: 'https://yourwebsite.com', // Thêm URL
+      images: [
+        {
+          url: 'https://github.com/wuubangdev/share-host-file/blob/main/avatar.png?raw=true',
+          width: 800,
+          height: 600,
+          alt: 'Paul Thien Avatar'
+        }
+      ],
       type: "website",
-      description: 'Paul Thien Portfolio',
-      emails: 'thienbao.trang97@gmail.com',
-      countryName: 'Viet Nam',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      site: '@your_twitter_handle',
+      title: 'Paul Thien Portfolio',
+      description: 'Portfolio showcasing the work of Paul Thien',
+      images: ['https://github.com/wuubangdev/share-host-file/blob/main/avatar.png?raw=true']
     },
   }
 }

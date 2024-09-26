@@ -15,10 +15,12 @@ const Personal = () => {
                     <div className='font-semibold text-center flex items-center flex-col justify-center gap-4 text-white'>
                         <div className='flex md:gap-3 gap-1 items-end hover:scale-110 duration-300 cursor-pointer'>
                             <h1 className='text-4xl md:text-6xl  tracking-wider '>Hello</h1>
-                            <img
+                            <Image
                                 src="/hand.png"
                                 alt="hand"
-                                className='h-10 md:h-16 '
+                                width={80}
+                                height={60}
+                                className='h-14 md:h-20'
                             />
                         </div>
                         <h1 className='text-4xl md:text-6xl  hover:scale-110 duration-300 cursor-pointer'>I'm Paul</h1>
