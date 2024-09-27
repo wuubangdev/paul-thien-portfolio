@@ -6,18 +6,18 @@ import { Metadata } from "next";
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: "Paul",
-    description: 'Paul Thien Portfolio',
+    title: "Paul Portfolio",
+    description: '🎨 Houdini FX Artist & 3D Generalist | Tạo nên những hiệu ứng hình ảnh động sống động và chân thực nhất! Với kinh nghiệm phong phú trong việc sử dụng Houdini và các công cụ 3D khác, tôi mang đến những giải pháp sáng tạo và hiệu quả cho các dự án điện ảnh, game, và quảng cáo. Từ việc tạo ra các hiệu ứng đặc biệt phức tạp đến xây dựng toàn bộ môi trường 3D, tôi luôn hướng đến sự hoàn hảo trong từng khung hình. 🌟',
     openGraph: {
-      title: "Paul Thien Portfolio", // Thêm title cho OpenGraph
-      description: 'Portfolio showcasing the work of Paul Thien',
-      url: 'https://yourwebsite.com', // Thêm URL
+      title: "Paul Portfolio",
+      description: '🎨 Houdini FX Artist & 3D Generalist | Tạo nên những hiệu ứng hình ảnh động sống động và chân thực nhất! Với kinh nghiệm phong phú trong việc sử dụng Houdini và các công cụ 3D khác, tôi mang đến những giải pháp sáng tạo và hiệu quả cho các dự án điện ảnh, game, và quảng cáo. Từ việc tạo ra các hiệu ứng đặc biệt phức tạp đến xây dựng toàn bộ môi trường 3D, tôi luôn hướng đến sự hoàn hảo trong từng khung hình. 🌟',
+      url: 'https://www.behance.net/lucthienbao',
       images: [
         {
-          url: 'https://github.com/wuubangdev/share-host-file/blob/main/avatar.png?raw=true',
+          url: 'https://github.com/wuubangdev/share-host-file/blob/main/avata.jpg?raw=true',
           width: 800,
           height: 600,
-          alt: 'Paul Thien Avatar'
+          alt: 'Paul Avatar'
         }
       ],
       type: "website",
@@ -25,9 +25,9 @@ export async function generateMetadata(): Promise<Metadata> {
     twitter: {
       card: 'summary_large_image',
       site: '@your_twitter_handle',
-      title: 'Paul Thien Portfolio',
-      description: 'Portfolio showcasing the work of Paul Thien',
-      images: ['https://github.com/wuubangdev/share-host-file/blob/main/avatar.png?raw=true']
+      title: 'Paul Portfolio',
+      description: '🎨 Houdini FX Artist & 3D Generalist | Tạo nên những hiệu ứng hình ảnh động sống động và chân thực nhất! Với kinh nghiệm phong phú trong việc sử dụng Houdini và các công cụ 3D khác, tôi mang đến những giải pháp sáng tạo và hiệu quả cho các dự án điện ảnh, game, và quảng cáo. Từ việc tạo ra các hiệu ứng đặc biệt phức tạp đến xây dựng toàn bộ môi trường 3D, tôi luôn hướng đến sự hoàn hảo trong từng khung hình. 🌟',
+      images: ['https://github.com/wuubangdev/share-host-file/blob/main/avata.jpg?raw=true']
     },
   }
 }
