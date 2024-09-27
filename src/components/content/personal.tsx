@@ -29,9 +29,7 @@ const Personal = () => {
                                 sequence={[
                                     "3D Generalist",
                                     2000,
-                                    "2D Graphic Designer",
-                                    2000,
-                                    "UX/UI Designer",
+                                    "Houdini FX Artist",
                                     2000,
 
                                 ]}

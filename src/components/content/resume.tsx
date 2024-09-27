@@ -4,21 +4,23 @@ import Job, { IJob } from './resume/jobs';
 const jobs: IJob[] = [
     {
         company: "Avalon Solution Company",
-        position: "UX/UI Designer",
-        duration: "2019-2020",
+        position: "Java Developer",
+        duration: "2020 - 2022",
         description: [
-            "Design UI template website and edit UI request from overseas customer.",
-            "Design logo, banners and some print publications.",
+            "Participated in the development and maintenance of web applications and back-end systems using Java and frameworks such as Spring Boot and Hibernate.",
+            "Designed and built RESTful APIs for microservices, optimized performance, and ensured the scalability of systems.",
+            "Managed and worked with relational databases like MySQL and PostgreSQL, using JPA for database interactions.",
         ],
     },
     {
-        company: "FPT Education Company",
-        position: "Graphic Designer",
-        duration: "2020-2023",
+        company: "Harbour Comapny",
+        position: "3D Archviz Artist",
+        duration: "2023-2024",
         description: [
-            "Design school publications, participate school project and event.",
-            "Design program, events, music shows, Q&A shows for famous actors in the country.",
-            "Design short videos used to run ads, honor award, program, sports festivals.",
+            "Developed and produced high-quality architectural 3D renderings for interior and exterior projects using software like 3ds Max, V-Ray, and Corona Renderer.",
+            "Created detailed 3D models from CAD drawings and architectural sketches, ensuring accuracy and meeting client specifications.",
+            "Collaborated with architects, designers, and clients to understand the visualization requirements, materials, lighting, and overall design of the project.",
+            "Optimized models and renderings to ensure high-quality visuals while maintaining workflow efficiency.",
         ],
     },
     {
